@@ -5,7 +5,7 @@
   for (i = imgSourcesMin; i < imgSourcesMax + 1; i++) {
     imgSources.push({
       type: 'image',
-      url:  `../chheh/TJTST1_${('00' + i).slice(-3)}.jpg`
+      url:  `../chheh/1905TaioanChitgiapMiaJilui_Page_${('00' + i).slice(-3)}.jpg`
     })
   }
   const viewer = OpenSeadragon({
